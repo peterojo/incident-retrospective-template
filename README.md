@@ -15,7 +15,7 @@ Use this to run fast, effective post-incident reviews and capture learnings that
 **Owner(s):**  
 
 **Short summary (2–3 sentences):**  
-What happened, what was impacted, and how it was resolved — high-level only.
+High-level outline of what happened, what was impacted, and how it was resolved.
 
 ---
 
@@ -82,7 +82,7 @@ List non-root-cause elements that made the incident worse:
 ## 7. Resolution
 
 **What fixed the issue?**  
-Write the exact steps taken — configs, rollbacks, restarts, scaling, feature flags, hotfixes.
+Write the exact steps taken, e.g configs, rollbacks, restarts, scaling, feature flags, hotfixes.
 
 ---
 
@@ -120,7 +120,7 @@ Bullet list of 3–10 insights the team wants to remember.
 Examples:  
 - “We investigated the wrong subsystem for 20 minutes due to ambiguous alerts.”  
 - “Traffic pattern X now exceeds our assumed normal baseline.”  
-- “Rollback procedures were unclear — needs docs.”
+- “Rollback procedures were unclear, needs docs.”
 
 ---
 
@@ -134,4 +134,4 @@ Examples:
 
 ---
 
-**Maintainers:** <your name or org>
+**Maintainers:** [your name or org]
